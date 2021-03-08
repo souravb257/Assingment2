@@ -10,7 +10,7 @@ namespace Assingment2
        
         private int interestSavings;
         private int minBalance;
-        private int timesWithdrawn;
+        private int timesOfWithdrawn;
         private double balance;
         private string accountType;
 
@@ -21,7 +21,7 @@ namespace Assingment2
         }
         private int TimesWithdrawn
         {
-            get { return this.timesWithdrawn; }
+            get { return this.timesOfWithdrawn; }
         }
        
         public void Savings(double balance)
