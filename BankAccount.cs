@@ -59,34 +59,34 @@ namespace Assingment2
 
 
 
-        public virtual double AccoNumber()
+        public double AccoNumber()
         {
-            Random rand = new Random();
-            this.accountNumber = rand.Next(787878787, 45454545);
+            Random random = new Random();
+            this.accountNumber = random.Next(787878787, 45454545);
             return accountNumber;
         }
-        public virtual double Amount()
+        public double Amount()
         {
             balance = balance + deposit - withdrawal;
             deposit = 0;
             withdrawal = 0;
             return balance;
         }
-        public virtual double DepositBalance(double input)
+        public double DepositBalance(double input)
         {
             deposit = input;
             withdrawal = 0;
             balance = balance + deposit - withdrawal;
             return balance;
         }
-        public virtual double WithdrawBalance(double input)
+        public double WithdrawBalance(double input)
         {
             withdrawal = input;
             deposit = 0;
             balance = balance + deposit - withdrawal;
             return balance;
         }
-        public virtual void DisplayMenu()
+        public void DisplayMenu()
         {
             Console.WriteLine("Developers Bank\nWelcome to your bank account, " + firstName + " " + lastName);
             Console.WriteLine("Please choose from the options below:\n1.Open an account:\n2.Perform transactions on an account:");
