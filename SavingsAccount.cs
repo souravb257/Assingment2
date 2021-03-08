@@ -7,12 +7,14 @@ namespace Assingment2
 {
     class SavingsAccount:BankAccount
     {
-        //fields
+       
         private int interestSavings;
         private int minBalance;
         private int timesWithdrawn;
+        private double balance;
+        private string accountType;
 
-        //properties
+       
         public int Interest
         {
             get { return this.interestSavings; }
@@ -21,8 +23,8 @@ namespace Assingment2
         {
             get { return this.timesWithdrawn; }
         }
-        //constructors
-        public Savings(double balance) : base()
+       
+        public void Savings(double balance)
         {
             interestSavings = 10;
             this.balance = balance;
