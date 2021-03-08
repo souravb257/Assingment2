@@ -17,8 +17,8 @@ namespace Assingment2
             savings.AccoNumber();
 
             
-            string streamcheckingaccount = ("Account Number: " + checking.AccountNumber);
-            string streamsavingsaccount = ("Account Number: " + savings.AccountNumber);
+            string checkingaccount = ("Account Number: " + checking.AccountNumber);
+            string savingsaccount = ("Account Number: " + savings.AccountNumber);
             string checkingaccounttype = (checking.AccountType);
             string savingsaccounttype = (savings.AccountType);
 
