@@ -45,11 +45,20 @@ namespace Assingment2
       
         public BankAccount()
         {
-            firstName = "Sourav";
+            firstName = "Sourov";
             lastName = "Barman";
         }
+        public void ChekingAccount()
+        {
 
-       
+        }
+        public void SavingsAccount()
+        {
+
+        }
+
+
+
         public virtual double AccoNumber()
         {
             Random rand = new Random();
