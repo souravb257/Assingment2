@@ -16,12 +16,6 @@ namespace Assingment2
             SavingsAccount savings = new SavingsAccount();
             savings.AccoNumber();
 
-            
-            string checkingaccount = ("Account Number: " + checking.AccountNumber);
-            string savingsaccount = ("Account Number: " + savings.AccountNumber);
-            string checkingaccounttype = (checking.AccountType);
-            string savingsaccounttype = (savings.AccountType);
-
                 Console.WriteLine("Hit Enter to Display Banking Menu");
                 Console.ReadLine();
 
