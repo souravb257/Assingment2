@@ -10,7 +10,7 @@ namespace Assingment2
         static void Main(string[] args)
         {
           
-            BankAccount client = new BankAccount();
+            BankAccount bank = new BankAccount();
             ChekingAccount checking = new ChekingAccount();
             checking.AccoNumber();
             SavingsAccount savings = new SavingsAccount();
@@ -19,7 +19,7 @@ namespace Assingment2
                 Console.WriteLine("Hit Enter to Display Banking Menu");
                 Console.ReadLine();
 
-                client.DisplayMenu();
+                bank.DisplayMenu();
                 string userchoice = Console.ReadLine();
 
                 switch (userchoice.ToUpper())
